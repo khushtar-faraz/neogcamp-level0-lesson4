@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Oooh Baby', cursive;
+}
+
+:root {
+    --primary: #F2C94C;
+    --width-break:600px;
+}
+
+#heading {
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'Oooh Baby', cursive;
+    font-weight: bold;
+    border: 1.5px solid black;
+}
+
+#user-input {
+    word-spacing: 3px;
+    font-family: 'Oooh Baby', cursive;
+    width: 100%;
+    border: 1.5px solid black;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    max-width: var(--width-break);
+    font-weight: bold;
+    padding-top: .5rem;
+    font-size: 1.3rem;
+    
+    
+}
+
+#translate-button{
+    background-color: var(--primary);
+    font-size: 1.5rem;
+    /* font-family: 'Oooh Baby', cursive; */
+    font-family:inherit;
+    font-weight: bold;
+    padding: 1rem;
+    display: block;
+    margin: 2rem auto;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+button+div{
+    font-size: 2rem;
+    text-align:center;
+}
+
+#output-text{
+    border: 1.5px solid black;
+    max-width: var(--width-break);
+    display: block;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow:scroll;
+    margin: 2rem auto;
+    width: 100%;
+}
+
+footer div{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: var(--primary);
+    padding: 1rem;
+    display: block;
+    margin: auto;
+    word-spacing: 3px;
+    border: 1.5px solid black;
+    
+}
+
+footer p{
+    width: 100%;
+    max-width: var(--width-break);
+    margin: auto;
+    font-weight: 600;
+    text-align: center;
+}
